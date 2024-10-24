@@ -11,7 +11,8 @@ public class ProductsController {
     @GetMapping
     public String getString(){
         String s = "Test npoint";
-        return s;
+        String s1 = "s1";
+        return s + s1;
     }
 
 
