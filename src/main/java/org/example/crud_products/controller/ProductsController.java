@@ -10,7 +10,8 @@ public class ProductsController {
 
     @GetMapping
     public String getString(){
-        return "Test endpoint";
+        String s = "Test npoint";
+        return s;
     }
 
 
